@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyTitle>CommandDotNet.NewerReleasesAlerts</AssemblyTitle>
+    <Description>Print alerts if current version of the app is not the latest published version</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="output\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="output\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="output\**" />
+  </ItemGroup>
+</Project>

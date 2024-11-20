@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyTitle>CommandDotNet.Spectre.Testing</AssemblyTitle>
+        <Description>Integrate Spectre test utilities with CommandDotNet.TestTools</Description>
+        <PackageTags>dotnet core; console; prompt; ansi; tables; test</PackageTags>
+    <ReleaseNotes>https://commanddotnet.bilal-fazlani.com/releasenotes/commanddotnet.spectre.testing/</ReleaseNotes>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Remove="output\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Remove="output\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="output\**" />
+    </ItemGroup>
+
+</Project>
